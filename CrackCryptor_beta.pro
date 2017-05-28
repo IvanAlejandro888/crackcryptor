@@ -35,4 +35,5 @@ DISTFILES += \
     key.txt \
     output.txt \
     output2.txt \
-    input.txt
+    input.txt \
+    README.md
