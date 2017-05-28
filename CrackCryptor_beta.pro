@@ -45,3 +45,7 @@ DISTFILES += \
     README.md \
     LICENSE \
     crackcryptor.png
+
+SUBDIRS += \
+    TestFunctions/TestFunctions.pro \
+    TestFunctions/TestFunctions.pro
