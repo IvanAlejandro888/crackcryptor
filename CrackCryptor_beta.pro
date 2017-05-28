@@ -36,4 +36,5 @@ DISTFILES += \
     output.txt \
     output2.txt \
     input.txt \
-    README.md
+    README.md \
+    LICENSE
