@@ -243,3 +243,9 @@ void CrackWindow::on_actionExit_2_triggered()
     this->~CrackWindow();
     exit (0);
 }
+
+void CrackWindow::on_actionAbout_CrackCryptor_triggered()
+{
+    reader.a = new About;
+    reader.a->show();
+}

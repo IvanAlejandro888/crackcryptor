@@ -2,6 +2,7 @@
 #define CRACKWINDOW_H
 
 #include "libraries.h"
+#include "about.h"
 
 namespace Ui {
 class CrackWindow;
@@ -9,6 +10,8 @@ class CrackWindow;
 
 class Reader {
 public:
+    About *a;
+
     int inputType;
     int status;
     QString in_filename;
@@ -63,6 +66,8 @@ private slots:
     void on_clearBtn_clicked();
 
     void on_actionExit_2_triggered();
+
+    void on_actionAbout_CrackCryptor_triggered();
 
 private:
     Ui::CrackWindow *ui;

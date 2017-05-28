@@ -24,12 +24,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        crackwindow.cpp
+        crackwindow.cpp \
+    about.cpp \
+    license.cpp
 
 HEADERS  += crackwindow.h \
-    libraries.h
+    libraries.h \
+    about.h \
+    license.h
 
-FORMS    += crackwindow.ui
+FORMS    += crackwindow.ui \
+    about.ui \
+    license.ui
 
 DISTFILES += \
     key.txt \
@@ -37,4 +43,5 @@ DISTFILES += \
     output2.txt \
     input.txt \
     README.md \
-    LICENSE
+    LICENSE \
+    crackcryptor.png

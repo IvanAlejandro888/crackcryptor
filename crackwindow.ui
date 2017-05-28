@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../CrackCryptor_logo/crackcryptor.png</normaloff>../../CrackCryptor_logo/crackcryptor.png</iconset>
+    <normaloff>crackcryptor.png</normaloff>crackcryptor.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
