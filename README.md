@@ -1,6 +1,6 @@
 # CrackCryptor
 
-CrackCryptor is a simple text encryptor develop in C++ with Qt libraries, that works very fine.
+CrackCryptor is a simple text encryptor developed in C++ with Qt Creator, that works very fine.
 
 CrackCryptor applies a XOR logical operation to encrypt text files.
 
