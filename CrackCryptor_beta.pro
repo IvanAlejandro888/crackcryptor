@@ -44,7 +44,8 @@ DISTFILES += \
     input.txt \
     README.md \
     LICENSE \
-    crackcryptor.png
+    crackcryptor.png \
+    configure
 
 SUBDIRS += \
     TestFunctions/TestFunctions.pro \

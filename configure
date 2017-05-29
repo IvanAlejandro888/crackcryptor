@@ -1,0 +1,2 @@
+qmake CrackCryptor_beta.pro -spec linux-g++
+make in build
