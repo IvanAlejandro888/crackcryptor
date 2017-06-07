@@ -50,3 +50,6 @@ DISTFILES += \
 SUBDIRS += \
     TestFunctions/TestFunctions.pro \
     TestFunctions/TestFunctions.pro
+
+RESOURCES += \
+    crackcryptor_beta.qrc

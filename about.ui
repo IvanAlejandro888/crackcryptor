@@ -73,7 +73,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>crackcryptor.png</pixmap>
+    <pixmap resource="crackcryptor_beta.qrc">:/new/prefix1/crackcryptor.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -127,7 +127,9 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="crackcryptor_beta.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

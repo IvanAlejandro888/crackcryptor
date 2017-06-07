@@ -13,6 +13,7 @@ public:
     About *a;
 
     int inputType;
+    int outputType; // 0 = File | 1 = Input | 2 = Dialog
     int status;
     QString in_filename;
     QString key_filename;
@@ -52,6 +53,8 @@ public slots:
 
     void on_gTextbox_toggled(bool checked);
 
+    void on_gFile2_toggled(bool checked);
+
 private slots:
     void on_iBtnSelFile_clicked();
 
@@ -68,6 +71,10 @@ private slots:
     void on_actionExit_2_triggered();
 
     void on_actionAbout_CrackCryptor_triggered();
+
+    void on_gInput_toggled(bool checked);
+
+    void on_gDialog_toggled(bool checked);
 
 private:
     Ui::CrackWindow *ui;
