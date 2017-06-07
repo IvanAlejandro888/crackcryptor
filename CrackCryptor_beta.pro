@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = CrackCryptor_beta
+TARGET = CrackCryptor_beta_2
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -45,7 +45,8 @@ DISTFILES += \
     README.md \
     LICENSE \
     crackcryptor.png \
-    configure
+    configure \
+    .gitignore
 
 SUBDIRS += \
     TestFunctions/TestFunctions.pro \
