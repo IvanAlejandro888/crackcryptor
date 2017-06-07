@@ -35,8 +35,8 @@
    <string>About</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>crackcryptor.png</normaloff>crackcryptor.png</iconset>
+   <iconset resource="crackcryptor_beta.qrc">
+    <normaloff>:/new/prefix1/crackcryptor.png</normaloff>:/new/prefix1/crackcryptor.png</iconset>
   </property>
   <property name="sizeGripEnabled">
    <bool>false</bool>

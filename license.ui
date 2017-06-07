@@ -14,8 +14,8 @@
    <string>CrackCryptor License</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>crackcryptor.png</normaloff>crackcryptor.png</iconset>
+   <iconset resource="crackcryptor_beta.qrc">
+    <normaloff>:/new/prefix1/crackcryptor.png</normaloff>:/new/prefix1/crackcryptor.png</iconset>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -670,7 +670,9 @@ copy of the Program in return for a fee.
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="crackcryptor_beta.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>
