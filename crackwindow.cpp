@@ -129,10 +129,6 @@ void Reader::encryptMessage(int size)
         final[i] = fc;
     }
     output = final;
-    for(int i=0;i<size;i++)
-    {
-        qDebug() << "Msg:" << (int)resInput[i] << "| (" << QChar(resInput[i]) << ") | Key:" << (int)resKey[i] << "| Out:" << (int)output[i] << "(" << QChar(output[i]) << ")";
-    }
 }
 
 CrackWindow::~CrackWindow()

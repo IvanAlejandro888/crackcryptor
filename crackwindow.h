@@ -26,8 +26,8 @@ public:
     QTextStream ptr_stream_2;
     char* resKey;
     char* resInput;
-    qint16 tamanioInput;
-    qint16 tamanioKey;
+    quint16 tamanioInput;
+    quint16 tamanioKey;
     void errorMsg(QString infText);
     void infoMsg(QString infText);
     void ReadTxtInput(QString txt);
